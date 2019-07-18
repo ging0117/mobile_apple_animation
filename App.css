@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  /* position: relative; */
+  background: #000;
+}
+
+.sticky-item {
+  height: 100vh;
+  min-height: calc(712px + (50vh - (712px / 2)) + 22px);
+  margin-bottom: calc(-1 * ((100vh - 712px) / 2) + 22px);
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+
+.image-container {
+  margin-left: -583.544px;
+  width: 1167.088px;
+  height: 2295.488px;
+  position: relative;
+  left: 50%;
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  will-change: transform;
+}
+
+.image-feature {
+  width: 100vw;
+  height: 1312px;
+  position: absolute;
+  left: 10%;
+  margin-left: -490px;
+  top: 494px;
+  opacity: 0;
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.image-portrait-mode-1 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(./image/figure1.png);
+}
+
+.image-portrait-mode-2 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(./image/figure2.png);
+}
+
+.image-portrait-mode-3 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(./image/figure3.png);
+}
+
+.image-portrait-mode-4 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(./image/figure4.png);
+}
+
+.show {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
+
+.font-size {
+  font-size: 21px;
+}
+
+.row {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  color: white;
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.row-inner {
+  width: 25%;
+  float: right;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px;
+  }
+
+  .medium-4 {
+    width: 33.33333%;
+  }
+
+  .font-size {
+    font-size: 19px;
+  }
+
+  .image-container {
+    margin-left: -410.48px;
+    width: 820.96px;
+    height: 1612.6px;
+  }
+
+  .image-feature {
+    top: 346px;
+    width: 692px;
+    height: 926px;
+    left: 50%;
+    margin-left: -346px;
+  }
+
+  .image-portrait-mode-1 {
+    background-size: 692px 926px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure1.png);
+  }
+
+  .image-portrait-mode-2 {
+    background-size: 692px 926px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure2.png);
+  }
+
+  .image-portrait-mode-3 {
+    background-size: 692px 926px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure3.png);
+  }
+
+  .image-portrait-mode-4 {
+    background-size: 692px 926px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure4.png);
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%;
+  }
+
+  .small-12 {
+    width: 100%;
+  }
+
+  .font-size {
+    font-size: 17px;
+  }
+
+  .image-container {
+    margin-left: -247.596px;
+    width: 495.192px;
+    height: 969.312px;
+  }
+
+  .image-feature {
+    top: 455px;
+    width: 418px;
+    height: 559px;
+    left: 50%;
+    margin-left: -209px;
+  }
+
+  .image-portrait-mode-1 {
+    background-size: 418px 559px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure11.png);
+  }
+
+  .image-portrait-mode-2 {
+    background-size: 418px 559px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure22.png);
+  }
+
+  .image-portrait-mode-3 {
+    background-size: 418px 559px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure33.png);
+  }
+
+  .image-portrait-mode-4 {
+    background-size: 418px 559px;
+    background-repeat: no-repeat;
+    background-image: url(./image/figure44.png);
+  }
+}
